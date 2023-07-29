@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container__header {
+    margin: 0 auto;
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__left {
+    padding-top: 45px;
+}
+
+.header__right {
+    padding-top: 51px;
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head__links__orange {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.head__links {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.header__left, .header__links {
+    width: 36%;
+}
+
+.container__top {
+    margin: 0 auto;
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+}
+
+.top__left {
+    padding-top: 96px;
+}
+
+.top__right {
+    padding-top: 95px;
+}
+
+.top__text {
+    width: 552px;
+}
+
+.title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    padding-top: 17px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_buttoms {
+    padding-top: 37PX;
+    padding-bottom: 162px;
+    width: 552px;
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.start_button {
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    padding: 1rem 2rem;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.video__link {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.top__left, .top__right {
+    width: 32%;
+}
+
+.conteiner__footer {
+    margin: 0 auto;
+    
+}
+
+.footer {
+    margin-top: 97px;
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    align-items: center;
+}
