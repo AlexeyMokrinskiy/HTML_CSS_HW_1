@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first_section {
+    margin: 0 auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 30px;
+}
+
+.head_item {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.head_image{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.head_title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+    margin-left: 29px;
+}
+
+.head_text {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-top: 17px;
+    margin-bottom: 25px;
+    margin-left: 29px;
+}
+
+.head_link {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-left: 29px;
+}
+
+.second_content {
+    padding-top: 54px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 36px;
+    padding-bottom: 57px;
+}
+
+.second_section {
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
+
+.second_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.second_title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 92px;
+    display: flex;
+    justify-content: center;
+}
+
+.main_text {
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    padding-top: 19px;
+    width: 682px;
+    margin: auto;
+}
+
+.second_subtitle {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 22px;
+}
+
+.second_text {
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    padding-bottom: 39px;
+    width: 310px;
+}
+
+.links {
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #F25822;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(245, 245, 245, 0.2);
+}
